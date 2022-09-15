@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.servicos.ServicosFragment">
+
+    <TextView
+        android:id="@+id/textServicosTitulo"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:text="Sistema de gestão de qualidade"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textServicosTexto"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="27dp"
+        android:layout_marginEnd="20dp"
+        android:text="Lorem ipsum dolor sit amet. A quibusdam nostrum id dolor voluptate non esse blanditiis. Sunt molestias et asperiores necessitatibus aut exercitationem nihil qui dolorem dolorum eos doloribus dolore ut earum unde et illo modi."
+        android:textAlignment="textStart"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textServicosTitulo" />
+
+    <TextView
+        android:id="@+id/textServicosTitulo2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:text="Indicadores de desempenho"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textServicosTexto" />
+
+    <TextView
+        android:id="@+id/textServicosTexto2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:text="Est tenetur atque vel officiis ratione sed quisquam galisum qui velit consequatur qui doloribus autem vel omnis molestiae. Ab nostrum praesentium ut velit consequatur sit galisum magnam est suscipit galisum aut voluptatibus magnam. Et quam eveniet qui molestiae nostrum 33 praesentium labore ad cupiditate officia aut omnis consequuntur sit assumenda corporis qui nihil neque. Et sapiente ipsa ut voluptatum corporis qui voluptatem quia."
+        android:textAlignment="textStart"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textServicosTitulo2" />
+</androidx.constraintlayout.widget.ConstraintLayout>
